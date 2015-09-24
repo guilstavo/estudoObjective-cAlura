@@ -16,6 +16,7 @@
 		EC000C1B1BB430BD001C1FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC000C191BB430BD001C1FE5 /* LaunchScreen.storyboard */; };
 		EC000C261BB430BD001C1FE5 /* estudoObjective_cAluraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC000C251BB430BD001C1FE5 /* estudoObjective_cAluraTests.m */; };
 		EC000C311BB430BD001C1FE5 /* estudoObjective_cAluraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC000C301BB430BD001C1FE5 /* estudoObjective_cAluraUITests.m */; };
+		ECE2BB1E1BB4BE7E0088A81C /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE2BB1D1BB4BE7E0088A81C /* Contato.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EC000C2C1BB430BD001C1FE5 /* estudoObjective-cAluraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "estudoObjective-cAluraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC000C301BB430BD001C1FE5 /* estudoObjective_cAluraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = estudoObjective_cAluraUITests.m; sourceTree = "<group>"; };
 		EC000C321BB430BD001C1FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE2BB1C1BB4BE7E0088A81C /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
+		ECE2BB1D1BB4BE7E0088A81C /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				EC000C0C1BB430BC001C1FE5 /* AppDelegate.m */,
 				EC000C0E1BB430BC001C1FE5 /* ViewController.h */,
 				EC000C0F1BB430BC001C1FE5 /* ViewController.m */,
+				ECE2BB1C1BB4BE7E0088A81C /* Contato.h */,
+				ECE2BB1D1BB4BE7E0088A81C /* Contato.m */,
 				EC000C111BB430BD001C1FE5 /* Main.storyboard */,
 				EC000C171BB430BD001C1FE5 /* Assets.xcassets */,
 				EC000C191BB430BD001C1FE5 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECE2BB1E1BB4BE7E0088A81C /* Contato.m in Sources */,
 				EC000C101BB430BC001C1FE5 /* ViewController.m in Sources */,
 				EC000C161BB430BD001C1FE5 /* estudoObjective_cAlura.xcdatamodeld in Sources */,
 				EC000C0D1BB430BC001C1FE5 /* AppDelegate.m in Sources */,
@@ -503,6 +509,7 @@
 				EC000C371BB430BD001C1FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC000C381BB430BD001C1FE5 /* Build configuration list for PBXNativeTarget "estudoObjective-cAluraTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				EC000C3A1BB430BD001C1FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC000C3B1BB430BD001C1FE5 /* Build configuration list for PBXNativeTarget "estudoObjective-cAluraUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				EC000C3D1BB430BD001C1FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
