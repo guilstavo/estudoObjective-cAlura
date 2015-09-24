@@ -10,7 +10,10 @@
 
 @interface Contato : NSObject
 
--(void) setNome: (NSString *) novoNome;
--(NSString *) nome;
+@property NSString *nome;
+@property NSString *endereco;
+@property NSString *telefone;
+@property NSString *site;
+@property NSString *email;
 
 @end
