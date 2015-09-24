@@ -17,6 +17,7 @@
 		EC000C261BB430BD001C1FE5 /* estudoObjective_cAluraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC000C251BB430BD001C1FE5 /* estudoObjective_cAluraTests.m */; };
 		EC000C311BB430BD001C1FE5 /* estudoObjective_cAluraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC000C301BB430BD001C1FE5 /* estudoObjective_cAluraUITests.m */; };
 		ECE2BB1E1BB4BE7E0088A81C /* Contato.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE2BB1D1BB4BE7E0088A81C /* Contato.m */; settings = {ASSET_TAGS = (); }; };
+		ECE2BB211BB4C28B0088A81C /* ListaContatosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE2BB201BB4C28B0088A81C /* ListaContatosViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		EC000C321BB430BD001C1FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECE2BB1C1BB4BE7E0088A81C /* Contato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contato.h; sourceTree = "<group>"; };
 		ECE2BB1D1BB4BE7E0088A81C /* Contato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contato.m; sourceTree = "<group>"; };
+		ECE2BB1F1BB4C28B0088A81C /* ListaContatosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaContatosViewController.h; sourceTree = "<group>"; };
+		ECE2BB201BB4C28B0088A81C /* ListaContatosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaContatosViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				ECE2BB1C1BB4BE7E0088A81C /* Contato.h */,
 				ECE2BB1D1BB4BE7E0088A81C /* Contato.m */,
 				EC000C111BB430BD001C1FE5 /* Main.storyboard */,
+				ECE2BB1F1BB4C28B0088A81C /* ListaContatosViewController.h */,
+				ECE2BB201BB4C28B0088A81C /* ListaContatosViewController.m */,
 				EC000C171BB430BD001C1FE5 /* Assets.xcassets */,
 				EC000C191BB430BD001C1FE5 /* LaunchScreen.storyboard */,
 				EC000C1C1BB430BD001C1FE5 /* Info.plist */,
@@ -282,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE2BB1E1BB4BE7E0088A81C /* Contato.m in Sources */,
+				ECE2BB211BB4C28B0088A81C /* ListaContatosViewController.m in Sources */,
 				EC000C101BB430BC001C1FE5 /* ViewController.m in Sources */,
 				EC000C161BB430BD001C1FE5 /* estudoObjective_cAlura.xcdatamodeld in Sources */,
 				EC000C0D1BB430BC001C1FE5 /* AppDelegate.m in Sources */,
