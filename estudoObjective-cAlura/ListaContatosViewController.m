@@ -35,8 +35,16 @@
     return self.contatos.count;
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+- (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
+    
+    NSString *identificador = @"Celula";
+    
+    UITableViewCell *cell = [self.tableView dequeueReusableCellWithIdentifier:identificador];
+    
+    if(!cell){
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identificador];
+    }
+    
     Contato *contato = self.contatos[indexPath.row];
     cell.textLabel.text = contato.nome;
     return cell;
