@@ -19,7 +19,8 @@
     contato.site = self.site.text;
     contato.telefone = self.telefone.text;
     contato.email = self.email.text;
-    NSLog(@"Dados do contato: %@ %@ %@ %@ %@", contato.nome, contato.endereco, contato.site, contato.telefone, contato.email);
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end
