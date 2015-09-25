@@ -13,16 +13,20 @@
 
 -(id) init{
     self = [super init];
-    
-    UIBarButtonItem * botaoForm = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(exibeFormulario)];
-    self.navigationItem.rightBarButtonItem = botaoForm;
-    self.navigationItem.title = @"Contatos";
+    if(self){
+        UIBarButtonItem * botaoForm = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(exibeFormulario)];
+        self.navigationItem.rightBarButtonItem = botaoForm;
+        self.navigationItem.title = @"Contatos";
+        self.contatos = [NSMutableArray new];
+    }
     return self;
 }
 
 -(void) exibeFormulario{
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    UIViewController *form = [storyboard instantiateViewControllerWithIdentifier:@"Form-Contato"];
+    ViewController *form = [storyboard instantiateViewControllerWithIdentifier:@"Form-Contato"];
+    form.contatos = self.contatos;
+    
     [self.navigationController pushViewController:form animated:YES];
 }
 
