@@ -18,7 +18,7 @@
         UIBarButtonItem * botaoForm = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(exibeFormulario)];
         self.navigationItem.rightBarButtonItem = botaoForm;
         self.navigationItem.title = @"Contatos";
-        self.dao = [ContatoDao new];
+        self.dao = [ContatoDao contatoDaoInstance];
     }
     return self;
 }
@@ -26,7 +26,6 @@
 -(void) exibeFormulario{
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ViewController *form = [storyboard instantiateViewControllerWithIdentifier:@"Form-Contato"];
-    form.dao = self.dao;
     
     [self.navigationController pushViewController:form animated:YES];
 }
