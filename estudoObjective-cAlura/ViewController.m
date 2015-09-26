@@ -47,10 +47,8 @@
     self.contato = [Contato new];
     [self pegaDadosDoFurmulario];
     [self.dao adicionaContato:self.contato];
-    
-    [self.delegate contatoAdicionado: self.contato];
-    
     [self.navigationController popViewControllerAnimated:YES];
+    [self.delegate contatoAdicionado: self.contato];
 }
 
 -(void) altera{
