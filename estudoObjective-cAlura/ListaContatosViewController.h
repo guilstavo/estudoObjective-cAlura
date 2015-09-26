@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "ContatoDao.h"
+#import "ViewController.h"
 
-@interface ListaContatosViewController : UITableViewController
+@interface ListaContatosViewController : UITableViewController<ViewControllerDelegate>
 
 @property ContatoDao *dao;
 @property Contato *contatoSelecionado;
+
+-(void) contatoAdicionado: (Contato *)contato;
+-(void) contatoAtualizado: (Contato *)contato;
 
 @end
