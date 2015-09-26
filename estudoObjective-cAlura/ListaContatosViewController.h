@@ -14,8 +14,6 @@
 
 @property ContatoDao *dao;
 @property Contato *contatoSelecionado;
-
--(void) contatoAdicionado: (Contato *)contato;
--(void) contatoAtualizado: (Contato *)contato;
+@property NSInteger linhaSelecionada;
 
 @end
